@@ -15,7 +15,7 @@ $('#btnSubmit').on('click', function (event) {
     let value = $("<li></li>");
     value.append($("#text").val());
     //   ....this next function sets a random color to the value when clicked....somehow... 🤔 
-    //(Josh confuses me)
+    //(Josh confuses me) jk
     $(value).on('click', function () {
         let letters = '0123456789ABCDEF';
         let color = '#';
